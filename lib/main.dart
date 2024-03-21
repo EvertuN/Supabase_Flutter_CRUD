@@ -7,7 +7,7 @@ Future<void> main() async {
   await Supabase.initialize(
     url: 'URL_AQUI',
     anonKey:
-        'ANONKEY_AQUI',
+        'anon_key',
   );
 
   runApp(const MaterialApp(
